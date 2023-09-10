@@ -1,0 +1,30 @@
+body{
+    background-image: url(bd.jpg);
+    background-size: cover;
+}
+header{
+    margin: 25px;
+    display: flex;
+    text-align: center;
+}
+.style{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;   
+}
+
+.style1{
+    
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: large;
+    display: inline;
+}
+.style label{
+    font-size: large;
+
+}

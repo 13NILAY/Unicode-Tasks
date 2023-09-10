@@ -1,5 +1,62 @@
-.bac{
-    background: url("Untitled.png");
-    height: 100vh;
-    background-size:cover ;
+*{
+    background-color: #e3f2fd;
+}
+.container-fluid{
+    background-color: #1886d4;
+}
+.logo{
+    color: black;
+    border: 10px solid orange;
+    border-radius: 50%;
+}
+nav{
+    background-color: #e3f2fd;
+}
+.login button{
+    background-color: blue;
+    color: black;
+}
+.login{
+    display: flex;
+}
+
+.card{
+    height: 26.5rem;
+    border: 5px solid purple;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    margin: 10px;
+}
+
+.card img{
+    height:65%;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.card h5{
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+/* .Sho{
+    display: flex;
+    justify-content: space-evenly;
+    fl
+} */
+.text{
+    text-align: center;
+    text-decoration: solid underline black;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
